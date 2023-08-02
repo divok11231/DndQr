@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+  }
+  .green-page {
+    background-color: #242323;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw; /* Set width to 100% of the viewport width */
+    margin: 0;
+  }
+  
+  
+  /* Styles for mobile screens */
+  @media screen and (max-width: 100vh) {
+    .green-page {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .green-page .div {
+      width: 90%;
+      max-width: 100vh;
+    }
+  
+    .green-page .overlap-group {
+      width: 100%;
+      max-width: 100vh;
+      left: 0;
+      top: 20px;
+    }
+  
+    .green-page .overlap {
+      width: 90%;
+      max-width: 240px;
+      left: 5%;
+      top: 20px;
+    }
+  
+    .green-page .p {
+      width: 80%;
+      max-width: 200px;
+      left: 10%;
+      top: 10px;
+    }
+  
+    .green-page .overlap-2 {
+      width: 80%;
+      max-width: 183px;
+      left: 10%;
+      top: 10px;
+    }
+  
+    .green-page .text-wrapper-2 {
+      color: #ffffff;
+      font-family: "JetBrains Mono-Regular", Helvetica;
+      font-size: 16px;
+      position: relative;
+      top: 0px;
+      left: 18px;
+      width: 145px;
+      height: 15px;
+      padding: 8px;
+      font-size: 12px;
+      border: solid #424141;
+      border-radius: 15px;
+    }
+    .green-page .image {
+      width: 30%;
+      max-width: 100vh;
+      left: 35%;
+      top: 10px;
+    }
+  }
+  
+  /* Original styles for larger screens */
+  .green-page .div {
+    background-color: #242323;
+    height: 100vh;
+    position: relative;
+    width: 360px;
+  }
+  
+  .green-page .overlap-group {
+    background-image: url(./Rectangle3.png);
+    background-size: 100% 100%;
+    height: 658px;
+    left: 26px;
+    position: absolute;
+    top: 80px;
+    width: 308px;
+  }
+  
+  .green-page .overlap {
+    background-color: #496553;
+    border-radius: 15px;
+    height: 255px;
+    left: 34px;
+    position: absolute;
+    top: 371px;
+    width: 240px;
+  }
+  
+  .green-page .text-wrapper {
+    color: #ffffff;
+    font-family: "JetBrains Mono-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    height: 45px;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 13px;
+    position: absolute;
+    top: 20px;
+    width: 200px;
+  }
+  
+  .green-page .done {
+    height: 200px;
+    left: 54px;
+    position: absolute;
+    top: 45px;
+    width: 200px;
+  }
+  
+  .green-page .p {
+    color: #ffffff;
+    font-family: "JetBrains Mono-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 66px;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 267px;
+    width: 200px;
+  }
+  
+  .green-page .overlap-2 {
+    height: 31px;
+    left: 148px;
+    position: absolute;
+    top: 36px;
+    width: 183px;
+  }
+
+  .green-page .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "JetBrains Mono-Regular", Helvetica;
+    font-size: 16px;
+    position: relative;
+    top: 0px;
+    left: 18px;
+    width: 145px;
+    height: 15px;
+    padding: 8px;
+    font-size: 12px;
+    border: solid #424141;
+    border-radius: 15px;
+  }
+  
+  .green-page .image {
+    height: 30px;
+    left: 31px;
+    object-fit: cover;
+    position: absolute;
+    top: 37px;
+    width: 47px;
+  }
