@@ -6,13 +6,6 @@
   width: 100%;
 }
 
-.control .div {
-  background-color: #242323;
-  border: 1px none;
-  height: 800px;
-  position: relative;
-  width: 360px;
-}
 
 .control .overlap-group {
   height: 31px;
