@@ -7,7 +7,7 @@ import { onMount } from '../pages/api/endpoint';
 const Missing = () => {
   const [text, setText] = useState('');
  
-  const data = "http://localhost:3000/yellowpage" ;
+  const data = "https://dnd-qr.vercel.app/yellowpage" ;
 
   const handleClick = async () => {
     try {

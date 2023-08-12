@@ -7,7 +7,7 @@ import { onMount } from '../pages/api/endpoint';
 const Done = () => {
   const [text, setText] = useState('');
  
-  const data = "http://localhost:3000/greenpage" ;
+  const data = "https://dnd-qr.vercel.app/greenpage" ;
 
   const handleClick = async () => {
     try {

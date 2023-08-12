@@ -7,7 +7,7 @@ import { onMount } from '../pages/api/endpoint';
 const Close = () => {
   const [text, setText] = useState('');
 
-  const data = "http://localhost:3000/redpage" ;
+  const data = "https://dnd-qr.vercel.app/redpage" ;
 
   const handleClick = async () => {
     try {
