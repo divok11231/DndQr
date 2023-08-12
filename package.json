@@ -10,7 +10,14 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/react": "^2.2.1",
+    "@supabase/supabase-js": "^2.32.0",
     "astro": "^2.9.6",
-    "supabase": "^1.82.6"
+    "axios": "^1.4.0",
+    "react": "^18.2.0",
+    "supabase": "^1.83.7"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.20"
   }
 }
