@@ -24,7 +24,7 @@ function NiceMessage() {
   }
 
   return (
-    <p className="text-wrapper">
+    <p className="text-wrapper-2">
       <h1>{message}</h1>
     </p>
   );

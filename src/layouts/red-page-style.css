@@ -39,7 +39,6 @@ body {
   
     .green-page .text-wrapper {
       width: 80%;
-      max-width: 200px;
       left: 10%;
       top: 10px;
     }
@@ -116,13 +115,13 @@ body {
   .green-page .text-wrapper {
     color: #ffffff;
     font-family: "JetBrains Mono-Regular", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    height: 45px;
+    font-size: 12px;
+    font-weight: 10px;
+  
     left: 18px;
-    letter-spacing: 0;
+
     line-height: 13px;
-    position: absolute;
+    position: relative;
     top: 20px;
     width: 200px;
   }
@@ -170,8 +169,7 @@ body {
     height: 15px;
     padding: 8px;
     font-size: 12px;
-    border: solid #424141;
-    border-radius: 15px;
+
   }
   .green-page .image {
     height: 30px;
