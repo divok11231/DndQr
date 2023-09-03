@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { supabase } from '../lib/supabase.client';
-import "../layouts/green-page-style.css";
+import "../layouts/yellow-page-style.css";
 
 function NiceMessage() {
   const [message, setMessage] = useState("");
