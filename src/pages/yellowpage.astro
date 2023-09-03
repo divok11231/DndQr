@@ -1,5 +1,7 @@
 ---
 import "../layouts/yellow-page-style.css";
+import NiceMessage from "../components/yellowText";
+
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +16,7 @@ import "../layouts/yellow-page-style.css";
     <div class="overlap-group">
       <img alt="Image" src="/Rectangle1.png" />
       <div class="overlap">
-        <div class="text-wrapper">He might be classes or lunch come back later</div>
+        <NiceMessage client:load>
       </div>
       <img class="done" alt="Done" src="/question_mark.svg" />
       <p class="p">IM NOT IN ROOM</p>
