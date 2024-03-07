@@ -18,7 +18,7 @@ function NiceMessage() {
     if (error) {
       console.error(error);
     } else {
-      // set the message state to the nice_message value
+    
       setMessage(data[0].niceMessage);
     }
   }
